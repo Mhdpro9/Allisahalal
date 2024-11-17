@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;1,300&display=swap');
+
+*{
+    margin: 0;             
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family : "Poppins", sans-serif ;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.logo img{
+    width: 160px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+
+}
+
+nav ul{
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(78, 152, 78);
+}
+
+.container{
+    max-width: 1220px;
+    margin: 20px auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px ; 
+}
+
+.col-2 img{
+    width:100%;
+    padding: 30px 0;          
+}
+
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+
+.col-2 a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: rgb(7, 186, 177);
+    color: #fff;
+    border-radius: 30px;
+    margin-top: 25px;
+    transition: background 0.7s;
+
+}
+.col-2 a:hover{
+    background: #07e0d5;
+}
+
+p{
+    color: rgb(17, 142, 98);      
+}
+
+.header-section{
+    margin-top: -20px;
+    background: radial-gradient(#fff,);
+}
+
+/* style de la section categoie */
+
+.categories{
+    margin: 70px 0;
+}
+
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin: auto;
+
+}
+
+.col-3 img{    
+    width: 100%;
+}
+
+.categories h2{
+    text-align: center;
+    font-size: 1.8rem;
+    color: darkslategrey;
+    margin: 24px 0;
+}
+
+/* section des meilleurs produits */  
+
+.col-4{
+    flex-basis: 25%;
+    min-width: 200px;
+    padding: 15px;
+    transition: transform 0.4s;
+}
+
+.col-4 img{
+    width: 100%;
+}
+
+.col-4 :hover{
+    transform: translateY(-10px);
+}
+
+.rating .fa{
+    color: rgb(8, 192, 205);
+}
+
+
+
+
+
+
+
+
+.footer-section {
+    background-color: #333; /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+    padding: 20px 0; /* Espacement intérieur */
+    text-align: center; /* Centrer le texte */
+}
+
+.footer-section p {
+    margin: 10px 0; /* Espacement autour des paragraphes */
+}
+
+.footer-section a {
+    color: #07e0d5; /* Couleur du lien */
+    text-decoration: none; /* Supprimer le soulignement par défaut */
+}
+
+.footer-section a:hover {
+    text-decoration: underline; /* Souligner le lien au survol */
+}
+
+
+
+
+
